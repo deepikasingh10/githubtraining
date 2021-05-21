@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url('img/img.jpg');
+            background-color: black;
+            color: white;
+            font-family: monospace;
+        }
+.left{
+    display: inline-block;
+    /* border: 2px solid rgb(233, 14, 14); */
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+}
+.mid{
+    display: block;
+    /* border: 2px solid rgb(12, 212, 12); */
+    margin: 20px auto;
+    width: 35%;
+}
+.right{
+    /* border: 2px solid rgb(99, 40, 209); */
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 15px;
+}
+.navbar li a{
+    color: white;
+    padding: 3px 9px;
+    text-decoration: none;
+}
+.navbar li a:hover, .navbar li a:active{
+   color: teal;
+    text-decoration: underline;}
+.btn{
+    margin: 0px 13px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: monospace;
+}
+.btn:hover{
+    background-color: rgb(110, 19, 19);
+}    
+.container{
+    border: 2px solid white;
+margin: 75px 75px;
+    display: block;
+    border-radius: 8px;
+    padding: 5px 2px;
+    width: 33%;
+    height: 300px;
+}
+.formgroup input{
+font-size: 15px;
+text-align: center;
+display: block;
+width: 75%;
+border: 2px solid black;
+border-radius: 18px;
+padding: 3px 3px;
+margin: 5px 45px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    text-align: center;
+
+}
+img{
+    height: 45px;
+    width: 49px;
+}
+div{
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+<img src="logo.jpg" alt="">
+<div>Deepika Fitness</div>
+        </div>
+        <div class="mid">
+<ul class="navbar">
+    <li><a href="#" class="active">HOME</a></li>
+    <li><a href="#">ABOUT US</a></li>
+    <li><a href="#">FITNESS CENTRE</a></li>
+    <li><a href="#">CONTACT US</a></li>
+</ul>
+        </div>
+        <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us Now</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Lucknow</h1><hr>
+        <form action="noaction.php">
+            
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your email">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your number">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your address">
+            </div>
+            <button class="btn">Submit</button>
+            <button class="btn">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
